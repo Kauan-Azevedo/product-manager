@@ -11,7 +11,7 @@ A aplicação é um CRUD para produtos gerais.
 
 ### Bibliotecas
 
-- <a href="github.com" target="_blank" style="color:inherit;">Sqlite-jdbc versao 3.43.0</a>
+- <a href="https://github.com/xerial/sqlite-jdbc" target="_blank" style="color:inherit;">Sqlite-jdbc versao 3.43.0</a>
 
 ### Autor 👀
 

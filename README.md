@@ -4,7 +4,7 @@ Projeto feito como N2 para a faculdade CESUSC/Analise e desenvolvimento de siste
 
 ## Sobre 📚
 
-A aplicação é um CRUD para produtos gerais.
+A aplicação é um CRUD para produtos de forma geral.
 
 - Linguagem; java ☕
 - Versão do Java: 17

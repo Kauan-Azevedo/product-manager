@@ -85,12 +85,8 @@ public class App {
     private static void updateProduct(Connection connection, Scanner scanner) throws SQLException {
         System.out.print("Id of product: ");
         int id = scanner.nextInt();
-        if (!ProductDb.checkProductId(connection, id)) {
-            System.out.println("Invalid Id");
-            System.exit(1);
-        }
-
         scanner.nextLine();
+
         ProductDb product = new ProductDb();
         System.out.print("New product name: ");
         product.setName(scanner.nextLine());

@@ -72,21 +72,6 @@ public class ProductDb extends ProductModel {
         }
     }
 
-    public static boolean checkProductId(Connection connection, int id) throws SQLException {
-        String sql = "SELECT id FROM products where id = ?;";
-
-        try (PreparedStatement statement = connection.prepareStatement(sql);
-                ResultSet resultSet = statement.executeQuery()) {
-            statement.setInt(1, id);
-
-            statement.executeQuery();
-            if (resultSet.next()) {
-                return true;
-            }
-            return false;
-        }
-    }
-
     public static void initProductModel(Connection connection) throws SQLException {
         createProductsTable(connection);
     }

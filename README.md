@@ -1,6 +1,6 @@
 # Projeto ⭐
 
-Projeto eito como N2 para a faculdade CESUSC/Analise e desenvolvimento de sistemas - 3º Fase, para a matéria Linguagem de programação I, tendo como objetivo aplicar os conceitos de programação orientada a objetos(POO).
+Projeto feito como N2 para a faculdade CESUSC/Analise e desenvolvimento de sistemas - 3º Fase, para a matéria Linguagem de programação I, tendo como objetivo aplicar os conceitos de programação orientada a objetos(POO).
 
 ## Sobre 📚
 
